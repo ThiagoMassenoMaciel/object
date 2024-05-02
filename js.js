@@ -1,4 +1,4 @@
-let niveis = []
+let niveis = new Array(3)
 
 const objeto1 = {
     matriz:[
@@ -22,9 +22,12 @@ const objeto2 = {
     coluna : 32
 }
 
-niveis[0].push(objeto1)
+niveis[0] = [ objeto1, objeto2]
 
+console.log(`acessando elemento do incide zero \n`)
 console.log(niveis[0])
+console.log("acessando todos elementos da array")
+console.log(niveis)
 
 const objeto3 = {
     matriz:[

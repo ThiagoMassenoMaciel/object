@@ -1,0 +1,4 @@
+este código significa estanciar tres array dentro da variavel ou 
+ou significa estanciar uma array com três posições ?
+
+let variavel = new Array(3)
